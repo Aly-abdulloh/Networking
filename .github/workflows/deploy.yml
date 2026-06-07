@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://${{ secrets.DOMAIN }}
+      url: https://crm.edubase.uz
 
     steps:
       - name: Checkout
